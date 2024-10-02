@@ -48,4 +48,28 @@ header{
   button:hover {
     background-color: #c51162; 
   }
+  @media (max-width: 768px) {
+    .container {
+      max-width: 100%; 
+      padding: 15px; 
+    }
+    
+    h1, h3, label {
+      font-size: 1.2rem; 
+    }
   
+    input[type="number"] {
+      width: 100%; 
+      margin-bottom: 10px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px; 
+      margin-bottom: 10px;
+    }
+  
+    #result {
+      font-size: 1.4rem; 
+    }
+  }

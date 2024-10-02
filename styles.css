@@ -1,0 +1,51 @@
+header{
+    text-align: center;
+    background-color:rgb(184, 35, 129);
+    color:#ff4081;
+    font-size: 35pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container {
+    background-color: #ffebee; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.3); 
+    max-width: 500px; 
+    margin: auto; 
+    color: #d5006d; 
+  }
+  
+  h3 {
+    color: #c2185b; 
+  }
+  
+  label {
+    color: #880e4f;
+  }
+  
+  input[type="number"] {
+    border: 2px solid #f50057;
+    border-radius: 5px; 
+    padding: 10px; 
+    width: calc(100% - 24px); 
+  }
+  
+  input[type="number"]:focus {
+    border-color: #ff4081; 
+    outline: none; 
+  }
+  
+  button {
+    background-color: #d5006d; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 15px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  button:hover {
+    background-color: #c51162; 
+  }
+  
